@@ -9,7 +9,7 @@
 | Asignatura | Teoría de la Computación - INFO1148 |
 | Carrera | Ingeniería Civil en Informática |
 | Docente | Marcos Lévano |
-| Integrantes | No informados; completar antes de la entrega académica. |
+| Integrantes | Jose Jimenez Saavedra (jefe de grupo); Demian Quezada Pasten (integrante). |
 | Fecha | 24 de octubre de 2026 |
 
 # 1. Introducción
@@ -294,4 +294,4 @@ Se adjuntan el informe en Markdown y PDF, la gramática, el árbol editable en M
 | Resultados automáticos y revisión de la rúbrica | `evidencias/validacion.txt`, `evidencias/revision_rubrica.md` |
 | Gramática y derivaciones verificables | `validacion/gramatica.json`, `validacion/derivaciones.json`, `validacion/verificar.py` |
 
-Los datos de integrantes no fueron proporcionados y deben completarse antes de la entrega académica. La revisión de la rúbrica documenta cobertura y evidencia; la calificación corresponde al docente.
+La revisión de la rúbrica documenta cobertura y evidencia; la calificación corresponde al docente.

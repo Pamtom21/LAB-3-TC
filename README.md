@@ -6,7 +6,7 @@ Laboratorio 3 - Diseño y Validación de Gramáticas Libres de Contexto.
 **Carrera:** Ingeniería Civil en Informática.  
 **Docente:** Marcos Lévano.  
 **Tema:** Gramáticas Libres de Contexto (GLC).  
-**Integrantes:** no informados; completar antes de la entrega académica.
+**Integrantes:** Jose Jimenez Saavedra (jefe de grupo); Demian Quezada Pasten (integrante).
 
 El objetivo es diseñar, explicar y validar una gramática para un lenguaje de programación simplificado. El trabajo incluye identificación formal, producciones, derivaciones por la izquierda, árbol de derivación, validación de las cadenas solicitadas y una extensión de declaración de variables.
 

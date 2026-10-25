@@ -8,6 +8,6 @@
 | P4: validación y errores (25) | Informe 2.4: ocho casos con estructura y causa del error; ambas variantes del caso 5 rechazadas. Distinción explícita de instrucción y programa. |
 | Extensión creativa | Informe 3: una construcción, declaración de variables, con G' formal, léxico actualizado, ejemplos válido e inválido, derivación e integración en programa. |
 | Coherencia y notación | Mismos R1-R12, Σ y V en gramática e informe; G' conserva las producciones de G. Comprobación de alcanzabilidad, productividad y símbolos declarados. |
-| Presentación y entrega | Estructura numerada de la plantilla, PDF, Markdown, árbol legible, fuentes y evidencias. Integrantes pendientes de información del usuario. |
+| Presentación y entrega | Estructura numerada de la plantilla, PDF, Markdown, árbol legible, fuentes y evidencias. Integrantes identificados: Jose Jimenez Saavedra (jefe de grupo) y Demian Quezada Pasten (integrante). |
 
 La tabla orienta la revisión hacia los criterios de nivel Excelente; no asigna una nota ni sustituye la evaluación docente. Los resultados concretos de las comprobaciones están en `validacion.txt`.

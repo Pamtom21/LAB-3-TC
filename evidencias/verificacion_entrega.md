@@ -7,6 +7,6 @@
 - El árbol PNG/SVG procede de la estructura verificada nodo por nodo. Mermaid utiliza esa misma estructura. Las conexiones no llevan flechas: expresan descendencia, con hijos ordenados de izquierda a derecha.
 - La fuente Mermaid superó la validación estática del perfil 11.16.1. No se ejecutó un motor Mermaid; las imágenes son exportaciones independientes del árbol verificado.
 - Se incluyen las fuentes PDF originales, el Markdown editable, el PDF final, las reglas y un verificador que solo requiere Python estándar.
-- Los nombres de integrantes no fueron informados. Esa limitación administrativa está indicada en la portada y el README.
+- Integrantes confirmados en el informe y el README: Jose Jimenez Saavedra (jefe de grupo) y Demian Quezada Pasten (integrante).
 
 Las comprobaciones reproducibles detalladas están en `validacion.txt`. La validación no constituye una calificación académica.
