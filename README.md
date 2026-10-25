@@ -6,14 +6,14 @@ Laboratorio 3 - Diseño y Validación de Gramáticas Libres de Contexto.
 **Carrera:** Ingeniería Civil en Informática.  
 **Docente:** Marcos Lévano.  
 **Tema:** Gramáticas Libres de Contexto (GLC).  
-**Integrantes:** Jose Jimenez Saavedra (jefe de grupo); Demian Quezada Pasten (integrante).
+**Integrantes:** Jose Jimenez Saavedra; Demian Quezada Pasten.
 
 El objetivo es diseñar, explicar y validar una gramática para un lenguaje de programación simplificado. El trabajo incluye identificación formal, producciones, derivaciones por la izquierda, árbol de derivación, validación de las cadenas solicitadas y una extensión de declaración de variables.
 
 ## Informe principal
 
 - [Informe completo en Markdown](Informe_Laboratorio_3.md)
-- [Informe para entregar en PDF](Informe_Laboratorio_3.pdf)
+- [Informe para entregar en PDF](Lab_03_JefeGrupo_Jose_Jimenez.pdf)
 - [Gramática base y extensión](gramatica.txt)
 - [Resultados de las comprobaciones](evidencias/validacion.txt)
 - [Revisión con la rúbrica](evidencias/revision_rubrica.md)
@@ -24,7 +24,7 @@ El objetivo es diseñar, explicar y validar una gramática para un lenguaje de p
 LAB-3-TC/
 ├── README.md
 ├── Informe_Laboratorio_3.md
-├── Informe_Laboratorio_3.pdf
+├── Lab_03_JefeGrupo_Jose_Jimenez.pdf
 ├── gramatica.txt
 ├── arbol_derivacion.mmd
 ├── documentos/        # enunciado, formato, rúbrica y guía de ejecución

@@ -9,7 +9,7 @@
 | Asignatura | Teoría de la Computación - INFO1148 |
 | Carrera | Ingeniería Civil en Informática |
 | Docente | Marcos Lévano |
-| Integrantes | Jose Jimenez Saavedra (jefe de grupo); Demian Quezada Pasten (integrante). |
+| Integrantes | Jose Jimenez Saavedra; Demian Quezada Pasten. |
 | Fecha | 24 de octubre de 2026 |
 
 # 1. Introducción
