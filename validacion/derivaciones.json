@@ -1,0 +1,100 @@
+{
+  "asignacion": {
+    "lexemas": [
+      "z",
+      "=",
+      "x",
+      "+",
+      "y",
+      "#"
+    ],
+    "pasos": [
+      [
+        "<instruccion>",
+        0
+      ],
+      [
+        "<asignacion>",
+        1
+      ],
+      [
+        "<asignacion_operacion>",
+        0
+      ],
+      [
+        "<id>",
+        0
+      ],
+      [
+        "<expresion>",
+        0
+      ],
+      [
+        "<operando>",
+        0
+      ],
+      [
+        "<id>",
+        0
+      ],
+      [
+        "<operador>",
+        0
+      ],
+      [
+        "<operando>",
+        0
+      ],
+      [
+        "<id>",
+        0
+      ]
+    ]
+  },
+  "salida": {
+    "lexemas": [
+      "salida",
+      "z",
+      "#"
+    ],
+    "pasos": [
+      [
+        "<instruccion>",
+        1
+      ],
+      [
+        "<salida>",
+        0
+      ],
+      [
+        "<id>",
+        0
+      ]
+    ]
+  },
+  "declaracion": {
+    "lexemas": [
+      "entero",
+      "x",
+      "#"
+    ],
+    "pasos": [
+      [
+        "<instruccion>",
+        2
+      ],
+      [
+        "<declaracion>",
+        0
+      ],
+      [
+        "<tipo>",
+        0
+      ],
+      [
+        "<id>",
+        0
+      ]
+    ]
+  }
+}

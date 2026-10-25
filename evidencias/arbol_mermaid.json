@@ -1,0 +1,157 @@
+{
+  "version": 2,
+  "title": "Árbol de derivación de z = x + y #",
+  "diagrams": [
+    {
+      "id": "arbol_derivacion",
+      "title": "Árbol de derivación",
+      "kind": "flowchart",
+      "data": {
+        "direction": "TB",
+        "nodes": [
+          {
+            "id": "n0",
+            "label": "⟨instruccion⟩"
+          },
+          {
+            "id": "n1",
+            "label": "⟨asignacion⟩"
+          },
+          {
+            "id": "n2",
+            "label": "⟨asignacion_operacion⟩"
+          },
+          {
+            "id": "n3",
+            "label": "⟨id⟩"
+          },
+          {
+            "id": "n4",
+            "label": "ID(z)"
+          },
+          {
+            "id": "n5",
+            "label": "="
+          },
+          {
+            "id": "n6",
+            "label": "⟨expresion⟩"
+          },
+          {
+            "id": "n7",
+            "label": "⟨operando⟩"
+          },
+          {
+            "id": "n8",
+            "label": "⟨id⟩"
+          },
+          {
+            "id": "n9",
+            "label": "ID(x)"
+          },
+          {
+            "id": "n10",
+            "label": "⟨operador⟩"
+          },
+          {
+            "id": "n11",
+            "label": "+"
+          },
+          {
+            "id": "n12",
+            "label": "⟨operando⟩"
+          },
+          {
+            "id": "n13",
+            "label": "⟨id⟩"
+          },
+          {
+            "id": "n14",
+            "label": "ID(y)"
+          },
+          {
+            "id": "n15",
+            "label": "#"
+          }
+        ],
+        "edges": [
+          {
+            "from": "n3",
+            "to": "n4",
+            "arrow": "---"
+          },
+          {
+            "from": "n2",
+            "to": "n3",
+            "arrow": "---"
+          },
+          {
+            "from": "n2",
+            "to": "n5",
+            "arrow": "---"
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "arrow": "---"
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "arrow": "---"
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "arrow": "---"
+          },
+          {
+            "from": "n10",
+            "to": "n11",
+            "arrow": "---"
+          },
+          {
+            "from": "n6",
+            "to": "n10",
+            "arrow": "---"
+          },
+          {
+            "from": "n13",
+            "to": "n14",
+            "arrow": "---"
+          },
+          {
+            "from": "n12",
+            "to": "n13",
+            "arrow": "---"
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "arrow": "---"
+          },
+          {
+            "from": "n2",
+            "to": "n6",
+            "arrow": "---"
+          },
+          {
+            "from": "n2",
+            "to": "n15",
+            "arrow": "---"
+          },
+          {
+            "from": "n1",
+            "to": "n2",
+            "arrow": "---"
+          },
+          {
+            "from": "n0",
+            "to": "n1",
+            "arrow": "---"
+          }
+        ]
+      }
+    }
+  ]
+}

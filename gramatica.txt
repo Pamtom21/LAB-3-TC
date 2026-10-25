@@ -1,0 +1,51 @@
+GRAMÁTICA BASE G = (V, Σ, P, S)
+S = <programa>
+V = {<programa>, <lista_instrucciones>, <instruccion>, <asignacion>, <asignacion_simple>, <asignacion_operacion>, <expresion>, <operando>, <operador>, <salida>, <id>, <numero>}
+Σ = {Begin, Programa, End, salida, =, +, -, *, /, %, #, ID, NUM}
+
+P:
+R1. <programa> → Begin Programa <id> <lista_instrucciones> End
+R2. <lista_instrucciones> → <instruccion> <lista_instrucciones> | <instruccion>
+R3. <instruccion> → <asignacion> | <salida>
+R4. <asignacion> → <asignacion_simple> | <asignacion_operacion>
+R5. <asignacion_simple> → <id> = <operando> #
+R6. <asignacion_operacion> → <id> = <expresion> #
+R7. <expresion> → <operando> <operador> <operando>
+R8. <operando> → <id> | <numero>
+R9. <operador> → + | - | * | / | %
+R10. <salida> → salida <id> #
+R11. <id> → ID
+R12. <numero> → NUM
+
+ESPECIFICACIÓN LÉXICA (previa a G)
+Identificador: letra (letra | digito | _)*, excluyendo palabras reservadas.
+Número: digito+ ( . digito+ )?, sin signo ni exponente.
+letra: carácter alfabético Unicode; digito: 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9.
+Reconocimiento de palabras completas y coincidencia más larga.
+Reservadas base: Begin, End, Programa, salida. Se distingue mayúscula/minúscula.
+Reservadas adicionales en G': entero, real.
+Se ignoran espacios, tabulaciones, saltos de línea y comentarios /* ... */ no anidados.
+Los espacios no se eliminan dentro de los lexemas: 'x y' son dos ID.
+El comentario del programa de referencia se ignora léxicamente, no es instrucción.
+ID y NUM son clases terminales; ID(z) y NUM(20) anotan sus lexemas, no nuevos terminales.
+
+Reglas estructurales equivalentes para las categorías léxicas:
+<lex_id> → <letra> <cola_id>
+<cola_id> → <letra> <cola_id> | <digito> <cola_id> | _ <cola_id> | ε
+<lex_numero> → <digitos> | <digitos> . <digitos>
+<digitos> → <digito> <digitos> | <digito>
+<letra> → c, para cada carácter alfabético Unicode c
+<digito> → 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+Estas reglas describen lexemas; sus auxiliares no pertenecen a V de G.
+El reconocimiento de palabras reservadas tiene prioridad sobre ID.
+
+EXTENSIÓN C: DECLARACIÓN DE VARIABLES
+G' = (V ∪ {<declaracion>, <tipo>}, Σ ∪ {entero, real}, P', S)
+P' contiene todo P y agrega:
+R3 adicional. <instruccion> → <declaracion>
+R13. <declaracion> → <tipo> <id> #
+R14. <tipo> → entero | real
+
+Una instrucción aislada se deriva desde <instruccion>; no es por sí sola un
+programa de L(G). El inicio global sigue siendo <programa>.
+Alcance: una operación binaria por asignación; sin paréntesis ni operadores unarios.

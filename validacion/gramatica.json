@@ -1,0 +1,145 @@
+{
+  "inicio": "<programa>",
+  "terminales": [
+    "Begin",
+    "Programa",
+    "End",
+    "salida",
+    "=",
+    "+",
+    "-",
+    "*",
+    "/",
+    "%",
+    "#",
+    "ID",
+    "NUM"
+  ],
+  "producciones": {
+    "<programa>": [
+      [
+        "Begin",
+        "Programa",
+        "<id>",
+        "<lista_instrucciones>",
+        "End"
+      ]
+    ],
+    "<lista_instrucciones>": [
+      [
+        "<instruccion>",
+        "<lista_instrucciones>"
+      ],
+      [
+        "<instruccion>"
+      ]
+    ],
+    "<instruccion>": [
+      [
+        "<asignacion>"
+      ],
+      [
+        "<salida>"
+      ]
+    ],
+    "<asignacion>": [
+      [
+        "<asignacion_simple>"
+      ],
+      [
+        "<asignacion_operacion>"
+      ]
+    ],
+    "<asignacion_simple>": [
+      [
+        "<id>",
+        "=",
+        "<operando>",
+        "#"
+      ]
+    ],
+    "<asignacion_operacion>": [
+      [
+        "<id>",
+        "=",
+        "<expresion>",
+        "#"
+      ]
+    ],
+    "<expresion>": [
+      [
+        "<operando>",
+        "<operador>",
+        "<operando>"
+      ]
+    ],
+    "<operando>": [
+      [
+        "<id>"
+      ],
+      [
+        "<numero>"
+      ]
+    ],
+    "<operador>": [
+      [
+        "+"
+      ],
+      [
+        "-"
+      ],
+      [
+        "*"
+      ],
+      [
+        "/"
+      ],
+      [
+        "%"
+      ]
+    ],
+    "<salida>": [
+      [
+        "salida",
+        "<id>",
+        "#"
+      ]
+    ],
+    "<id>": [
+      [
+        "ID"
+      ]
+    ],
+    "<numero>": [
+      [
+        "NUM"
+      ]
+    ]
+  },
+  "extension": {
+    "terminales": [
+      "entero",
+      "real"
+    ],
+    "producciones": {
+      "<declaracion>": [
+        [
+          "<tipo>",
+          "<id>",
+          "#"
+        ]
+      ],
+      "<tipo>": [
+        [
+          "entero"
+        ],
+        [
+          "real"
+        ]
+      ]
+    },
+    "alternativa_instruccion": [
+      "<declaracion>"
+    ]
+  }
+}

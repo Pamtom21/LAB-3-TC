@@ -1,0 +1,118 @@
+OK | G: todos los símbolos declarados
+OK | G: V y Sigma disjuntos
+OK | G: terminales declarados utilizados
+OK | G: no terminales alcanzables
+OK | G: no terminales productivos
+OK | G': todos los símbolos declarados
+OK | G': V y Sigma disjuntos
+OK | G': terminales declarados utilizados
+OK | G': no terminales alcanzables
+OK | G': no terminales productivos
+OK | R1: transcripción en gramatica.txt
+OK | R1: transcripción en informe
+OK | R2: transcripción en gramatica.txt
+OK | R2: transcripción en informe
+OK | R3: transcripción en gramatica.txt
+OK | R3: transcripción en informe
+OK | R4: transcripción en gramatica.txt
+OK | R4: transcripción en informe
+OK | R5: transcripción en gramatica.txt
+OK | R5: transcripción en informe
+OK | R6: transcripción en gramatica.txt
+OK | R6: transcripción en informe
+OK | R7: transcripción en gramatica.txt
+OK | R7: transcripción en informe
+OK | R8: transcripción en gramatica.txt
+OK | R8: transcripción en informe
+OK | R9: transcripción en gramatica.txt
+OK | R9: transcripción en informe
+OK | R10: transcripción en gramatica.txt
+OK | R10: transcripción en informe
+OK | R11: transcripción en gramatica.txt
+OK | R11: transcripción en informe
+OK | R12: transcripción en gramatica.txt
+OK | R12: transcripción en informe
+OK | Programa de referencia completo con comentario
+OK | Cantidad de instrucciones originales: 20
+OK | Referencia instrucción 1: x = 1.345 #
+OK | Referencia instrucción 2: y = 20 #
+OK | Referencia instrucción 3: z = x + y #
+OK | Referencia instrucción 4: z2 = x + y #
+OK | Referencia instrucción 5: h = z - x #
+OK | Referencia instrucción 6: h2 = z - x #
+OK | Referencia instrucción 7: k = h * y #
+OK | Referencia instrucción 8: t = k / z #
+OK | Referencia instrucción 9: m = k % 10 #
+OK | Referencia instrucción 10: salida z #
+OK | Referencia instrucción 11: salida h #
+OK | Referencia instrucción 12: salida k #
+OK | Referencia instrucción 13: salida t #
+OK | Referencia instrucción 14: salida m #
+OK | Referencia instrucción 15: temporal = 0 #
+OK | Referencia instrucción 16: temporal = x #
+OK | Referencia instrucción 17: x = y #
+OK | Referencia instrucción 18: y = temporal #
+OK | Referencia instrucción 19: salida x #
+OK | Referencia instrucción 20: salida y #
+OK | Espacios equivalentes
+OK | Espacios no concatenan identificadores
+OK | P4 caso 1: esperado True
+OK | P4 caso 2: esperado True
+OK | P4 caso 3: esperado True
+OK | P4 caso 4: esperado False
+OK | P4 caso 5: esperado False
+OK | P4 caso 6: esperado False
+OK | P4 caso 7: esperado False
+OK | P4 caso 8: esperado True
+OK | P4 caso 5 variante del PDF rechazada
+OK | P3: x = 20 #
+OK | P3: z = x * y #
+OK | P3: salida temporal #
+OK | Operador +
+OK | Operador -
+OK | Operador *
+OK | Operador /
+OK | Operador %
+OK | Léxico válido: x=0#
+OK | Léxico válido: x=1.345#
+OK | Léxico válido: x=00.50#
+OK | Léxico válido: variable_20=2#
+OK | Léxico válido: Árbol=3#
+OK | Rechazo: 1x=5#
+OK | Rechazo: _x=5#
+OK | Rechazo: x=-5#
+OK | Rechazo: x=1.#
+OK | Rechazo: x=.5#
+OK | Rechazo: x=1,5#
+OK | Rechazo: x=1e3#
+OK | Rechazo: x=x+y+z#
+OK | Rechazo: Begin=5#
+OK | Rechazo: salida salida #
+OK | Rechazo: x y=5#
+OK | Rechazo: x=5#/*sin cierre
+OK | Programa vacío rechazado
+OK | Programa con una instrucción
+OK | Instrucción no equivale a programa
+OK | Encabezado incompleto rechazado
+OK | End ausente rechazado
+OK | Extensión válida: entero x #
+OK | Extensión válida: real temperatura #
+OK | Extensión inválida: entero 2x #
+OK | Extensión inválida: entero #
+OK | Extensión inválida: real temperatura
+OK | Extensión inválida: entero real #
+OK | Programa extendido aceptado por G prima
+OK | Programa extendido rechazado por G base
+OK | Referencia preservada bajo extensión
+OK | real puede ser ID en base
+OK | real es reservada en extensión
+OK | Derivación izquierda completa y árbol consistente: asignacion
+OK | Lectura del árbol z = x + y #
+OK | Derivación izquierda completa y árbol consistente: salida
+OK | Derivación izquierda completa y árbol consistente: declaracion
+
+RESULTADO: 112/112 comprobaciones satisfactorias.
+Motor: reconocimiento general Earley sobre gramatica.json.
+Alcance: análisis léxico/sintáctico; no ejecución ni análisis de tipos.
+Derivaciones verificadas por sustitución del no terminal más a la izquierda.
+El árbol se construye a partir de las mismas sustituciones y se comprueba nodo por nodo.

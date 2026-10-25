@@ -1,0 +1,74 @@
+{
+  "symbol": "<instruccion>",
+  "children": [
+    {
+      "symbol": "<asignacion>",
+      "children": [
+        {
+          "symbol": "<asignacion_operacion>",
+          "children": [
+            {
+              "symbol": "<id>",
+              "children": [
+                {
+                  "symbol": "ID",
+                  "lexeme": "z"
+                }
+              ]
+            },
+            {
+              "symbol": "=",
+              "lexeme": "="
+            },
+            {
+              "symbol": "<expresion>",
+              "children": [
+                {
+                  "symbol": "<operando>",
+                  "children": [
+                    {
+                      "symbol": "<id>",
+                      "children": [
+                        {
+                          "symbol": "ID",
+                          "lexeme": "x"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": "<operador>",
+                  "children": [
+                    {
+                      "symbol": "+",
+                      "lexeme": "+"
+                    }
+                  ]
+                },
+                {
+                  "symbol": "<operando>",
+                  "children": [
+                    {
+                      "symbol": "<id>",
+                      "children": [
+                        {
+                          "symbol": "ID",
+                          "lexeme": "y"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": "#",
+              "lexeme": "#"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
